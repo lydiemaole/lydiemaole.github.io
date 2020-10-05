@@ -1,0 +1,98 @@
+* {
+     font:    
+}
+
+body {
+    margin: 20px;
+}
+
+.navbar-custom {
+    color: white;
+}
+
+.navbar-brand img{
+     height: 200px;
+    width: 200px;
+}
+
+.outer-wrapper {
+/*    padding: 20px;*/
+}
+
+.intro img{
+    width: auto;
+    height: 100vh;
+    z-index: 1;
+    margin-top: -60px;
+}
+
+.intro h1{
+    z-index: 2;
+    color: white;
+    margin-top: -200px;
+    padding-left: 20px;
+    
+}
+
+.bio{
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.profile {
+    height: 300px;
+}
+
+a {
+    
+}
+
+a:hover{
+    
+}
+
+button{
+    border-radius: 10px;
+}
+
+.one {
+    background-color: #a40606;
+    color: white;
+    padding: 20px;
+}
+
+.carousel {
+    align-content: center;
+}
+
+.mortgage {
+    padding: 20px;
+}
+
+.testimonies {
+    width: 100vw;
+}
+
+footer{
+    background-color: #2f4858;
+    color: white;
+}
+
+
+/*RENTAL PAGE*/
+
+.rental img{
+    width: 400px;
+}
+
+.container .table {
+    width: 300px;
+}
+
+.past {
+    color: gray;
+}
+
+td a{
+    color: white;
+}
