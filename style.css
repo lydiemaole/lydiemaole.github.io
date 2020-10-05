@@ -61,6 +61,11 @@ button{
     padding: 20px;
 }
 
+.two {
+    background-color: #2f4858;
+    color: white;
+}
+
 .carousel {
     align-content: center;
 }
@@ -71,13 +76,36 @@ button{
 
 .testimonies {
     width: 100vw;
+    padding: 20px;
 }
 
 footer{
     background-color: #2f4858;
     color: white;
+    padding: 20px;
 }
 
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #a40606;
+}
+
+.butn{
+    border-radius: 10px;
+    background-color: #2f4858;
+    color: white;
+    border-color: #2f4858;
+}
+
+.butn:hover{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border-color: #fff;
+}
 
 /*RENTAL PAGE*/
 
