@@ -48,12 +48,10 @@ a {
 }
 
 a:hover{
+    text-decoration: none;
     
 }
 
-button{
-    border-radius: 10px;
-}
 
 .one {
     background-color: #a40606;
@@ -98,6 +96,8 @@ footer{
     background-color: #2f4858;
     color: white;
     border-color: #2f4858;
+    height: 40px;
+    width: 160px;
 }
 
 .butn:hover{
@@ -105,12 +105,23 @@ footer{
     background-color: white;
     color: black;
     border-color: #fff;
+    height: 40px;
+    width: 160px;
+}
+
+.icons{
+    padding: 10px;
+}
+
+.copyright{
+    padding-top: 8px;
 }
 
 /*RENTAL PAGE*/
 
 .rental img{
-    width: 400px;
+    height: 100px;
+    padding: 10px;
 }
 
 .container .table {
