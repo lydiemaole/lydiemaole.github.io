@@ -89,7 +89,7 @@ footer{
     background-color: #2f4858;
     color: white;
     border-color: #2f4858;
-    height: 40px;
+    height: auto;
     width: auto;
     margin-bottom: 20px;
 }
@@ -99,19 +99,10 @@ footer{
     background-color: white;
     color: black;
     border-color: #fff;
-    height: 40px;
+    height: auto;
     width: auto;
 }
 
-.code {
-  font-size: 18px;
-  line-height: 26px;
-  white-space: normal;
-  word-break: break-word;
-  background-color: lightgray;
-  padding: 5px;
-  border-radius: 4px;
-}
 
 .copyright{
     padding-top: 8px;
