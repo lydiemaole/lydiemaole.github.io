@@ -89,7 +89,7 @@ footer{
     background-color: #2f4858;
     color: white;
     border-color: #2f4858;
-    height: auto;
+    height: 45px;
     width: auto;
     margin-bottom: 20px;
 }
@@ -99,7 +99,7 @@ footer{
     background-color: white;
     color: black;
     border-color: #fff;
-    height: auto;
+    height: 45px;
     width: auto;
 }
 
