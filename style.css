@@ -18,6 +18,7 @@ body {
 
 .backgroundImg{
     background-image: url(img/housemodel3d.png);
+    background: cover;
     height: 100vh;
     z-index: 0;
 }
@@ -88,6 +89,7 @@ footer{
     border-color: #2f4858;
     height: 40px;
     width: auto;
+    margin-bottom: 20px;
 }
 
 .butn:hover{
