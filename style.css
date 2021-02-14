@@ -1,5 +1,5 @@
 * {
-     font:    
+     font-family: 'Montserrat', sans-serif;   
 }
 
 body {
@@ -15,37 +15,29 @@ body {
     width: 200px;
 }
 
-.outer-wrapper {
-/*    padding: 20px;*/
-}
 
-.intro img{
-    width: auto;
+.backgroundImg{
+    background-image: url(img/housemodel3d.png);
     height: 100vh;
-    z-index: 1;
-    margin-top: -60px;
+    z-index: 0;
 }
 
-.intro h1{
-    z-index: 2;
-    color: white;
-    margin-top: -200px;
-    padding-left: 20px;
-    
+.title{
+    padding: 80px;
 }
 
-.bio{
-    padding: 20px;
-    margin-top: 150px;
+.buyWLydie{
+    padding: 100px;
+}
+
+.options{
+    padding-top: 20px;
 }
 
 .profile {
     height: 300px;
 }
 
-a {
-    
-}
 
 a:hover{
     text-decoration: none;
@@ -68,9 +60,6 @@ a:hover{
     align-content: center;
 }
 
-.mortgage {
-    padding: 20px;
-}
 
 .testimonies {
     width: 100vw;
@@ -93,11 +82,12 @@ footer{
 
 .butn{
     border-radius: 10px;
+    border-style: hidden;
     background-color: #2f4858;
     color: white;
     border-color: #2f4858;
     height: 40px;
-    width: 160px;
+    width: auto;
 }
 
 .butn:hover{
@@ -106,11 +96,7 @@ footer{
     color: black;
     border-color: #fff;
     height: 40px;
-    width: 160px;
-}
-
-.icons{
-    padding: 10px;
+    width: auto;
 }
 
 

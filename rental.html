@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
 <!--    <link rel="icon" href="favicon.ico">-->
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -25,11 +26,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto justify-content-end">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
+<!--
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Houses for Sale
@@ -41,6 +43,7 @@
               <a class="dropdown-item" href="#">Apartment for Rent</a>
             </div>
           </li>
+-->
         </ul>
       </div>
     </nav>
@@ -60,7 +63,7 @@
  =============================== -->
 <div class="container">
     <h2>Furnished Apartment for Rent</h2>
-        <img style="height: 400px;" src="/img/The-Landmark-Open-Concept-Living-Area-1024x682.jpg" alt="">
+        <img style="height: 400px;" src="/img/aptBed.JPG" alt="">
          <div class="row rental">
          <img src="/img/Anthology-1.jpg" class="rounded" alt="...">
          <img src="/img/Anthology-1.jpg" class="rounded  d-block" alt="...">
@@ -156,12 +159,77 @@
     
     
 
-
-  
-<!--  MOBILE ONLY
+<!--  APT
   =============================== -->
 <!--    d-block d-sm-none-->
+<!-- Images used to open the lightbox -->
+<div class="row rowi">
+  <div class="column">
+    <img src="img/aprBedr.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img/aptBed.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img/aptLivKit.JPG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img/aptLivingfrom.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
 
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img1_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img2_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img3_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img4_wide.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
     
     
 <!--  CONTACT
@@ -173,16 +241,19 @@
 <footer>
     <ul class="nav">
     <li class="nav-item copyright">
-        <p>Lydie Maole 2020</p>
+        <p>Lydie Maole 2021</p>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#">Contact</a>
+        <a class="nav-link active" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="rental.html">Rental</a>
+        <a class="nav-link" href="mailto:lydie.maole@remax.net">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="mailto:lydie@yahoo.com">Buy A Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="rental.html">Rent an Apartment</a>
       </li>
     </ul>
     
@@ -191,6 +262,8 @@
     </div>
     
   <script src="index.js" charset="utf-8"></script>  
+   <script src="lightbox.css" charset="utf-8">
+    </script> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
