@@ -70,7 +70,7 @@ a:hover{
 }
 
 footer{
-    background-color: #2f4858;
+    background-color: #d00000;
     color: white;
     padding: 20px;
 }
@@ -86,9 +86,9 @@ footer{
 .butn{
     border-radius: 10px;
     border-style: hidden;
-    background-color: #2f4858;
+    background-color: #d00000;
     color: white;
-    border-color: #2f4858;
+    border-color: #d00000;
     height: 45px;
     width: auto;
     margin-bottom: 20px;
