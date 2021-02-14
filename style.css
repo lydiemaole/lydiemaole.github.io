@@ -22,12 +22,12 @@ body {
     z-index: 0;
 }
 
-.title{
-    padding: 80px;
+.intro{
+    padding: 100px 80px;
 }
 
 .buyWLydie{
-    padding: 100px;
+    padding-top: 100px;
 }
 
 .options{
